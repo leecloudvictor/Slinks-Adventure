@@ -7,6 +7,7 @@ const MAX_SPEED = 200
 const JUMP_HEIGHT = -600
 var motion = Vector2()
 
+# warning-ignore:unused_argument
 func _physics_process(delta):
 	motion.y += GRAVITY
 	var friction = false
